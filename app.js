@@ -20,6 +20,30 @@ carpButton.addEventListener("click" , () => {
 
     resultText.innerHTML= `Result: ${sonuc}`;
 });
+ToplaButton.addEventListener("click" , () => {
+    let x = Number(firstNumber.value);
+    let y = Number(secondNumber.value);
+
+    let sonuc = x+y;
+
+    resultText.innerHTML= `Result: ${sonuc}`;
+});
+CikarButton.addEventListener("click" , () => {
+    let x = Number(firstNumber.value);
+    let y = Number(secondNumber.value);
+
+    let sonuc = x-y;
+
+    resultText.innerHTML= `Result: ${sonuc}`;
+});
+BolButton.addEventListener("click" , () => {
+    let x = Number(firstNumber.value);
+    let y = Number(secondNumber.value);
+
+    let sonuc = x/y;
+
+    resultText.innerHTML= `Result: ${sonuc}`;
+});
 
 
 //equalButton.addEventListener("click" , () => {
